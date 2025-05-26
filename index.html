@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanghai Juncheng Information Technology Co., Ltd</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="media/ai.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay">
+            <h1>AI Reshapes Efficiency for the Future</h1>
+            <button class="btn-primary" onclick="location.href='product.html'">Explore Our Solutions</button>
+        </div>
+    </header>
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-carousel">
+            <!-- product cards -->
+            <div class="card" onclick="location.href='product.html#office'">
+                <h3>Smart Office Assistant</h3>
+            </div>
+            <div class="card" onclick="location.href='product.html#automation'">
+                <h3>Process Automation Platform</h3>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Trusted By</h2>
+        <div class="logo-wall">
+            <div class="logo">Company A</div>
+            <div class="logo">Company B</div>
+            <div class="logo">Company C</div>
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Brief description" required></textarea>
+            <button type="submit" class="btn-primary">Get Customized Proposal Now</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Shanghai Juncheng Information Technology Co., Ltd</p>
+    </footer>
+    <div id="chatbot" onclick="toggleChat()">💬</div>
+    <div id="chat-window" class="hidden">
+        <div id="chat-messages"></div>
+        <input type="text" id="chat-input" placeholder="Ask me anything..." onkeydown="sendMessage(event)">
+    </div>
+</body>
+</html>

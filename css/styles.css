@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+}
+.hero {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+#bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-primary {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.products .card {
+    display: inline-block;
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo-wall {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cta form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.cta input, .cta textarea {
+    margin: 5px 0;
+    padding: 8px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #007bff;
+    color: #fff;
+}
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#chat-window {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+#chat-window.hidden {
+    display: none;
+}
+#chat-messages {
+    flex: 1;
+    padding: 5px;
+    overflow-y: auto;
+}
+#chat-input {
+    border: none;
+    border-top: 1px solid #ccc;
+    padding: 5px;
+}
+/* additional styles for other pages */
+.bar-chart {
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    align-items: flex-end;
+}
+.bar {
+    background: #007bff;
+    width: 80px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.bar:hover {
+    background: #ff6600;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.case-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hidden { display:none; }
