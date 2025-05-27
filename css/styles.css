@@ -216,7 +216,7 @@ footer {
 }
 
 /* Increase spacing between list items on company products page */
-ol li {
+.product-list li {
     margin-bottom: 20px;
 }
 
