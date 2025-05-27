@@ -12,14 +12,22 @@
         <video autoplay muted loop id="bg-video">
             <source src="media/ai.mp4" type="video/mp4">
         </video>
+        <nav class="top-nav">
+            <a href="profile.html" target="_blank" data-i18n="profile">Company Profile</a>
+            <a href="culture.html" target="_blank" data-i18n="culture">Corporate Culture</a>
+            <a href="company_products.html" target="_blank" data-i18n="productsLink">Company Products</a>
+            <a href="contact.html" target="_blank" data-i18n="contact">Contact Us</a>
+            <a href="#" onclick="setLang('en')">English</a>
+            <a href="#" onclick="setLang('zh')">中文</a>
+        </nav>
         <div class="hero-overlay">
-            <h1>AI Reshapes Efficiency for the Future</h1>
-            <h2>Shanghai Juncheng Information Technology Co., Ltd</h2>
-            <button class="btn-primary" onclick="location.href='product.html'">Explore Our Solutions</button>
+            <h1 data-i18n="heroTitle">AI Reshapes Efficiency for the Future</h1>
+            <h2 data-i18n="heroSubtitle">Shanghai Juncheng Information Technology Co., Ltd</h2>
+            <button class="btn-primary" onclick="location.href='product.html'" data-i18n="explore">Explore Our Solutions</button>
         </div>
     </header>
     <section class="products sci-fi-products">
-        <h2>Our Products</h2>
+        <h2 data-i18n="productsHeader">Our Products</h2>
         <div class="product-carousel">
             <!-- product cards -->
             <div class="card" onclick="location.href='product.html#office'">
@@ -41,23 +49,6 @@
                 <h3>Microsoft Copilot</h3>
             </div>
         </div>
-    </section>
-    <section class="testimonials sci-fi-testimonials">
-        <h2>Trusted By</h2>
-        <div class="logo-wall">
-            <div class="logo">Company A</div>
-            <div class="logo">Company B</div>
-            <div class="logo">Company C</div>
-        </div>
-    </section>
-    <section class="cta sci-fi-cta">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Brief description" required></textarea>
-            <button type="submit" class="btn-primary">Get Customized Proposal Now</button>
-        </form>
     </section>
     <footer>
         <p>&copy; 2023 Shanghai Juncheng Information Technology Co., Ltd</p>
