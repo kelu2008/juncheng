@@ -81,40 +81,6 @@ footer {
     background: #007bff;
     color: #fff;
 }
-#chatbot {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #ff6600;
-    color: #fff;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-#chat-window {
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    width: 300px;
-    height: 200px;
-    background: #fff;
-    border: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-}
-#chat-window.hidden {
-    display: none;
-}
-#chat-messages {
-    flex: 1;
-    padding: 5px;
-    overflow-y: auto;
-}
-#chat-input {
-    border: none;
-    border-top: 1px solid #ccc;
-    padding: 5px;
-}
 /* additional styles for other pages */
 .bar-chart {
     display: flex;
