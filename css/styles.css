@@ -214,3 +214,9 @@ footer {
         text-align: center;
     }
 }
+
+/* Increase spacing between list items on company products page */
+ol li {
+    margin-bottom: 20px;
+}
+
