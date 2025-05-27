@@ -62,7 +62,7 @@ const translations = {
     },
     zh: {
         heroTitle: '\u4eba\u5de5\u667a\u80fd\u91cd\u5851\u672a\u6765\u6548\u7387',
-        heroSubtitle: '\u4e0a\u6d77\u4fca\u6210\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8',
+        heroSubtitle: '\u4e0a\u6d77\u96bd\u57d5\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8',
         explore: '\u63a2\u7d22\u6211\u4eec\u7684\u89e3\u51b3\u65b9\u6848',
         productsHeader: '\u6211\u4eec\u7684\u4ea7\u54c1',
         profile: '\u516c\u53f8\u7b80\u4ecb',
