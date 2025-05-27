@@ -187,7 +187,7 @@ footer {
 
 /* Futuristic background for AI themed pages */
 .ai-bg {
-    background: url('https://images.unsplash.com/photo-1526401281623-279b6092b3c1?auto=format&fit=crop&w=1800&q=80') center/cover fixed;
+    background: linear-gradient(135deg, #000428, #004e92);
     color: #fff;
 }
 
