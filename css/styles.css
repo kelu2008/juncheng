@@ -202,8 +202,8 @@ footer {
 
 .image-ring img {
     width: 120px;
-    height: 120px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 0 10px #00ffff;
 }
