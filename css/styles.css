@@ -52,6 +52,14 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+/* Slightly larger hero text on the main page */
+.hero-overlay h1 {
+    font-size: 3em;
+}
+.hero-overlay h2 {
+    font-size: 2em;
+}
 .products .card {
     display: inline-block;
     background: #fff;
