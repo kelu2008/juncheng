@@ -173,3 +173,37 @@ body.sci-fi-theme {
 footer {
     background: #001f4d;
 }
+
+/* Center page layout for standalone pages */
+.center-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Futuristic background for AI themed pages */
+.ai-bg {
+    background: url('https://images.unsplash.com/photo-1526401281623-279b6092b3c1?auto=format&fit=crop&w=1800&q=80') center/cover fixed;
+    color: #fff;
+}
+
+/* Image ring used to surround text */
+.image-ring {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-ring img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ffff;
+}
