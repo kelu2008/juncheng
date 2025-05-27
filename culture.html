@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corporate Culture</title>
+    <title data-i18n="cultureHeading">Corporate Culture</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
-    <h1>Corporate Culture</h1>
-    <p>Template content about the company's culture.</p>
+    <nav class="top-nav">
+        <a href="#" onclick="setLang('en')">English</a>
+        <a href="#" onclick="setLang('zh')">中文</a>
+    </nav>
+    <h1 data-i18n="cultureHeading">Corporate Culture</h1>
+    <p data-i18n="cultureText">As a company specializing in the field of financial technology, Juncheng Information Technology provides customers with one-stop transaction management solutions in traditional finance, big data analysis, software development, and other areas.</p>
     <footer>
-        <a href="index.html">Back to Home</a>
+        <a href="index.html" data-i18n="backHome">Back to Home</a>
     </footer>
 </body>
 </html>

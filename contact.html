@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title data-i18n="contactHeading">Contact Us</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p>Feel free to reach out via email or phone.</p>
+    <nav class="top-nav">
+        <a href="#" onclick="setLang('en')">English</a>
+        <a href="#" onclick="setLang('zh')">中文</a>
+    </nav>
+    <h1 data-i18n="contactHeading">Contact Us</h1>
+    <p><span data-i18n="contactEmail">You can reach us via email at </span><a href="mailto:info@juncheng.com">info@juncheng.com</a>.</p>
     <footer>
-        <a href="index.html">Back to Home</a>
+        <a href="index.html" data-i18n="backHome">Back to Home</a>
     </footer>
 </body>
 </html>
