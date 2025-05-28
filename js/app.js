@@ -46,7 +46,7 @@ const translations = {
         prod6Body: 'Breaking the bottleneck of enterprise development through technological research and development',
         contactHeading: 'Contact Us',
         contactEmail: 'You can reach us via email at ',
-        contactAddress: 'Company Address: Room 2020, Jianhui Building, 22 Hengshan Road, Xuhui District, Shanghai'
+        contactAddress: 'Company Address: Jianhui Building, No. 22 Hengshan Road, Xuhui District, Shanghai, 2020'
     },
     zh: {
         heroTitle: '\u4eba\u5de5\u667a\u80fd\u91cd\u5851\u672a\u6765\u6548\u7387',
