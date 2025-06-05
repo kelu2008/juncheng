@@ -46,7 +46,7 @@ const translations = {
         prod6Body: 'Breaking the bottleneck of enterprise development through technological research and development',
         contactHeading: 'Contact Us',
         contactEmail: 'You can reach us via email at ',
-        contactAddress: 'Company Address: Jianhui Building, No. 22 Hengshan Road, Xuhui District, Shanghai, 2020'
+        contactAddress: 'Company Address: Room No. 2020 Jianhui Building, No. 922 Hengshan Road, Xuhui District, Shanghai'
     },
     zh: {
         heroTitle: '\u4eba\u5de5\u667a\u80fd\u91cd\u5851\u672a\u6765\u6548\u7387',
@@ -79,7 +79,7 @@ const translations = {
         prod6Body: '\u901a\u8fc7\u6280\u672f\u7814\u53d1\u6253\u7834\u4f01\u4e1a\u53d1\u5c55\u74f6\u9888',
         contactHeading: '\u8054\u7cfb\u6211\u4eec',
         contactEmail: '\u60a8\u53ef\u4ee5\u901a\u8fc7\u7535\u5b50\u90ae\u4ef6\u8054\u7cfb\u6211\u4eec\uff1a',
-        contactAddress: '\u516c\u53f8\u5730\u5740\uff1a \u4e0a\u6d77\u5e02\u5f90\u6c47\u533a\u8861\u5c71\u8def22\u53f7\u5efa\u6c47\u5927\u53a62020'
+        contactAddress: '\u516c\u53f8\u5730\u5740\uff1a\u0020\u4e0a\u6d77\u5e02\u5f90\u6c47\u533a\u8861\u5c71\u8def\u0039\u0032\u0032\u53f7\u5efa\u6c47\u5927\u53a6\u0032\u0030\u0032\u0030\u5ba4'
     }
 };
 
