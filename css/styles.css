@@ -28,7 +28,7 @@ body {
 }
 .top-nav a {
     margin-left: 15px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 18px;
 }
@@ -121,16 +121,17 @@ footer {
 body.sci-fi-theme {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #050029, #1a0066);
+    background: linear-gradient(135deg, #e8f0ff, #cdd8ff);
     background-attachment: fixed;
-    color: #e0e0ff;
+    color: #333;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 .sci-fi-hero .hero-overlay {
-    background: rgba(0,0,0,0.6);
+    background: rgba(255,255,255,0.6);
     text-shadow: 0 0 8px #00ffff;
+    color: #000;
 }
 .btn-primary {
     background: linear-gradient(90deg, #ff00ff, #00ffff);
